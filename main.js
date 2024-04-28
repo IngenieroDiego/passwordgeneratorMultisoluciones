@@ -10,7 +10,7 @@ const generatePassword = (base, length) => {
 const generate = () => {
     let length = parseInt(inputLength.value);
 
-    let base = "abcdefghijkmnpqrstuvwxyz123456789";
+    let base = "123456789abcdefghijkmnpqrstuvwxyz";
     const numbers = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     const symbols = ".?,;-_¡!¿*%&$/()[]{}|@><";
 
