@@ -10,7 +10,7 @@ const generatePassword = (base, length) => {
 const generate = () => {
     let length = parseInt(inputLength.value);
 
-    let base = "abcdefghjkmnpqrstuvwxyz123456789";
+    let base = "abcdefghijkmnpqrstuvwxyz123456789";
     const numbers = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     const symbols = ".?,;-_¡!¿*%&$/()[]{}|@><";
 
@@ -20,6 +20,7 @@ const generate = () => {
 
     generatedPassword.innerText = generatePassword(base, length);
 };
+
 
 window.addEventListener("DOMContentLoaded", () => {
     btnGenerate.addEventListener("click", () => {
